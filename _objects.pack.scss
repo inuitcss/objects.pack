@@ -16,6 +16,7 @@ $inuit-pack-gutter--small:      halve($inuit-pack-gutter) !default;
 $inuit-pack-gutter--large:     double($inuit-pack-gutter) !default;
 $inuit-pack-gutter--huge:   quadruple($inuit-pack-gutter) !default;
 
+$inuit-enable-pack--auto:   false !default;
 $inuit-enable-pack--tiny:   false !default;
 $inuit-enable-pack--small:  false !default;
 $inuit-enable-pack--large:  false !default;
@@ -23,7 +24,6 @@ $inuit-enable-pack--huge:   false !default;
 $inuit-enable-pack--rev:    false !default;
 $inuit-enable-pack--middle: false !default;
 $inuit-enable-pack--bottom: false !default;
-$inuit-enable-pack--auto:   false !default;
 
 
 
