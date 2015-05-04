@@ -49,41 +49,41 @@ its Objects layer.
 
 Basic usage of the Pack object uses the required classes:
 
-    <div class="pack">
-        <div class="pack__item">
+    <div class="o-pack">
+        <div class="o-pack__item">
             Foo
         </div>
-        <div class="pack__item">
+        <div class="o-pack__item">
             Bar
         </div>
-        <div class="pack__item">
+        <div class="o-pack__item">
             Baz
         </div>
     </div>
 
-The only valid children of the `.pack` node are `.pack__item`s.
+The only valid children of the `.o-pack` node are `.o-pack__item`s.
 
 ## Options
 
 Other, optional classes can supplement the required base classes:
 
-* `.pack--auto`: cause packed items to have an automatically determined,
+* `.o-pack--auto`: cause packed items to have an automatically determined,
   non-equal width.
-* `.pack--[tiny|small|large|huge]`: alter the gutter between pack items.
-* `.pack--rev`: reverse the rendered horizontal order of packed items.
-* `.pack--[middle|bottom]`: align packed items to the middles or bottoms of each
+* `.o-pack--[tiny|small|large|huge]`: alter the gutter between pack items.
+* `.o-pack--rev`: reverse the rendered horizontal order of packed items.
+* `.o-pack--[middle|bottom]`: align packed items to the middles or bottoms of each
   other.
 
 For example:
 
-    <div class="pack  pack--small  pack--rev">
-        <div class="pack__item">
+    <div class="o-pack  o-pack--small  o-pack--rev">
+        <div class="o-pack__item">
             Foo
         </div>
-        <div class="pack__item">
+        <div class="o-pack__item">
             Bar
         </div>
-        <div class="pack__item">
+        <div class="o-pack__item">
             Baz
         </div>
     </div>
