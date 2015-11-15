@@ -35,6 +35,7 @@ $inuit-enable-pack--bottom: false !default;
  */
 .#{$inuit-pack-namespace}pack,
 %#{$inuit-pack-namespace}pack {
+    border-spacing: 0;
     width: 100%; /* [1] */
     display: table;
     table-layout: fixed; /* [2] */
@@ -157,16 +158,16 @@ $inuit-enable-pack--bottom: false !default;
     /**
      * Reversed order packs.
      */
-    
+
     .#{$inuit-pack-namespace}pack--rev,
     %#{$inuit-pack-namespace}pack--rev {
         direction: rtl;
-    
+
         > .#{$inuit-pack-namespace}pack__item,
         > %#{$inuit-pack-namespace}pack__item {
             direction: ltr;
         }
-    
+
     }
 
 }
