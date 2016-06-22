@@ -32,12 +32,14 @@ $inuit-enable-pack--bottom: false !default;
 /**
  * 1. Fill all available space.
  * 2. Cause children to be automatically equally sized.
+ * 3. All items are aligned to the tops of each other.
  */
 .#{$inuit-pack-namespace}pack,
 %#{$inuit-pack-namespace}pack {
     width: 100%; /* [1] */
     display: table;
     table-layout: fixed; /* [2] */
+    vertical-align: top; /* [3] */
 }
 
     /**
